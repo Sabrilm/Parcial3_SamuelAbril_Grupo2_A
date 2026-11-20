@@ -12,9 +12,36 @@ const Independiente
 const Upcadicionalporcargo
 
 let salario = Number(prompt("¿Cual es tu salario actual?"));
-let tipo
-let padres
+let tipo = Number
+let padres = Number
 
-if (salario) { salario <= 0
- console.log("")
+
+if (SMMLV) { SMMLV <= 0
+    alert("Dato registrado")
+    
+}else { console.log("Vuelve a intentar, tu dato no coincide")
+    
 }
+
+if (tipo) { tipo <= 1 && tipo >= 2
+    alert("Dato registrado")
+    
+} else { console.log("Vuelve a intentar, tu dato no coincide")
+    
+}
+
+if (padres) { padres >=2 && padres <=0
+    alert("Dato registrado")
+    
+} else { console.log("Vuelve a intentar, tu dato no coincide")
+    
+}
+
+if (IBC) { IBC > 1
+    alert("Tu IBC es 1 SMMLV")
+} else{alert("Vuelve a intentar, tu dato no coincide")}
+
+if (IBC) { IBC > 25
+    alert("Tu IBC es 25 SMMLV")
+} else{alert("Vuelve a intentar, tu dato no coincide")}
+
