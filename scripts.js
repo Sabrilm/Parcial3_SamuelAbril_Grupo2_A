@@ -45,3 +45,19 @@ if (IBC) { IBC > 25
     alert("Tu IBC es 25 SMMLV")
 } else{alert("Vuelve a intentar, tu dato no coincide")}
 
+if (Dependiente) { Dependiente = Trabajador
+    alert("Tu aporte es del 4% al IBC")
+} else{alert("Vuelve a intentar, tu dato no coincide")}
+
+if (Dependiente) {Dependiente = Empleador
+    alert("Tu aporte es del 8.5%")
+ } else{alert("Vuelve a intentar, tu dato no coincide")}
+
+
+ if (Independiente) { Independiente = Afiliado
+    alert("Tu aporte es del 12.5% al IBC")
+} else{alert("Vuelve a intentar, tu dato no coincide")}
+
+if (Independiente) {Independiente = Empleador
+    alert("Tu aporte es del 0%")
+ } else{alert("Vuelve a intentar, tu dato no coincide")}
